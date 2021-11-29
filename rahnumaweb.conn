@@ -1,5 +1,0 @@
-DB_URL	jdbc:mysql://localhost:3306/
-DB_NAME	rahnumatest
-DB_USER	rahnumatestdba
-DB_PASSWORD	oveaQue5
-DB_DRIVER	com.mysql.jdbc.Driver
