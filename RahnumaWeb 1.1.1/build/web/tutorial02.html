@@ -1,0 +1,99 @@
+<html>
+
+<head>
+<title>Rahnuma Tutorial</title>
+</head>
+
+<body>
+
+<h1 align="center">Rahnuma: Pathway Prediction and Network Analysis Tool</h1>
+<h2 align="center">Tutorial &#8210; Comparative Analysis 1</h2>
+<br/>
+<b>Task:</b> To identify reactions present in <i>Xylella fastidiosa</i> 9a5c 
+that are absent from all <i>Xanthomonas</i>.
+<p><b>Steps: </b>The steps required to submit the job are as follows.</p>
+<i>Main Page</i>
+
+<ol>
+  <li>Specify a job name, e.g. &quot;<i>X. fastidiosa</i> 9a5c versus <i>
+  Xanthomonas</i> - reactions&quot;.</li>
+  <li>Specify a valid email address to get an email notification once the job is 
+  finished.</li>
+  <li>Select &quot;Comparative Analysis&quot; as the analysis to be performed.</li>
+  <li>Select &quot;Standard Comparison&quot; as the Analysis Type since we want to compare 
+  an organism against a group of organisms instead of performing comparison 
+  within a group of organisms.</li>
+  <li>Select &quot;Organism&quot; as Analysis Mode as we want to perform analysis on 
+  sets of organism rather than on a phylogeny.</li>
+  <li>We would like to identify reactions that are different, i.e. compare the 
+  networks without considering pathways between metabolites, so select 
+  &quot;Full Network&quot; as Comparison Mode.</li>
+  <li>Select the desired output type, tabulated or descriptive.</li>
+  <li>Select the desired output format, text or HTML.</li>
+  <li>Click &quot;Next&quot; to go to the parameters page.</li>
+</ol>
+
+<p>&nbsp;&nbsp;&nbsp; A sample screenshot is shown below.</p>
+
+<p align="center"><img border="0" src="T02_01.jpg"></p>
+
+<p><i>Parameters Page</i></p>
+
+<ol>
+  <li>To select organism 1, click &quot;Select&quot;.</li>
+  <li>Scroll down the organism list to find the required organism, &quot;<i>Xylella 
+  fastidiosa</i> 9a5c&quot; in this case.</li>
+  <li>Similarly, select organisms for the second set. We would like to select 
+  all <i>Xanthomonas</i> to form the second set so click the first <i>
+  Xanthomonas </i>species and then while holding the Shift key click on the last
+  <i>Xanthomonas</i> species.</li>
+  <li>Since we want to identify reactions that are missing from all <i>
+  Xanthomonas</i> species, i.e. not present in any of the species, we need to 
+  build a network that contains all reactions that are present in at least one 
+  of the species. To do this, select &quot;All Reactions&quot; as the Mode. 
+  Detailed explanation of the organism mode is presented 
+<a href="helpoutput.html#OrganismModeInterpretation">here</a>.</li>
+  <li>Click &quot;Submit&quot; to submit the job.</li>
+</ol>
+
+<p>&nbsp;&nbsp; A sample screenshot of the parameters page is shown below.</p>
+
+<p align="center"><img border="0" src="T02_02.jpg"></p>
+
+<p><b>Tip:</b> You can click on <b>[?]</b> at anytime to go to the corresponding 
+section on the help page.</p>
+
+<p><b>Output: </b>A sample output is shown below.</p>
+
+<p align="center"><img border="0" src="T02_03.jpg"></p>
+
+<ol>
+  <li> The header part of the result file shows the parameter values selected 
+  while submitting the job. </li>
+  <li>Results for comparative analysis are shown in a tabulated format 
+(Tabulated Output was selected as Output Type) with following columns.
+  <ol type="a">
+    <li>Reaction Id (from KEGG)</li>
+    <li>Reaction Description</li>
+    <li>Network 1</li>
+    <li>Network 2</li>
+  </ol>
+  For descriptive output, the results are grouped according to their presence in 
+  a network. 
+  </li>
+  <li>For HTML output, as in this case, entries are hot-linked to 
+corresponding entries in KEGG.</li>
+</ol>
+
+<p><b>Note: </b>The interpretation of output for different combinations of organism 
+mode for comparative analysis can be found 
+<a href="helpoutput.html#OrganismModeInterpretation">here</a>.</p>
+
+<p>For further enquiries or comments/suggestions, please contact Aziz Mithani at
+<b>mithani [at] stats [dot] ox [dot] ac [dot] uk</b>.</p>
+
+<p>Return to the <a href="tutorials.html">list of tutorials</a>.
+
+</body>
+
+</html>
