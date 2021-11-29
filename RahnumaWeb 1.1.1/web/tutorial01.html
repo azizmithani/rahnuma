@@ -1,0 +1,97 @@
+<html>
+
+<head>
+<title>Rahnuma Tutorial</title>
+</head>
+
+<body>
+
+<h1 align="center">Rahnuma: Pathway Prediction and Network Analysis Tool</h1>
+<h2 align="center">Tutorial &#8210; Pathway Prediction</h2>
+<br/>
+<b>Task:</b> To identify possible pathways from L-Glutamate to the TCA Cycle in <i>Escherichia coli</i> 
+K12.
+<p><b>Steps: </b>The steps required to submit the job are as follows.</p>
+<i>Main Page</i>
+
+<ol>
+  <li>Specify a job name, e.g. &quot;Pathways from Glutamate to the TCA cycle in <i>
+  E. coli</i>&quot;.</li>
+  <li>Specify a valid email address to get an email notification once the job is 
+  finished.</li>
+  <li>Select &quot;Pathway Analysis&quot; as the Analysis.</li>
+  <li>We would like to predict the pathways between metabolites, so select 
+  &quot;Pathway prediction&quot; as Analysis Type.</li>
+  <li>Select &quot;Organism&quot; as Analysis Mode as we want to perform analysis on an 
+  organism rather than on a phylogeny.</li>
+  <li>Network Mode is useful when performing analysis on multiple organisms. It 
+  specifies if the organisms should be treated individually or combined to build 
+  one single network. Let the default option &quot;Individual&quot; selected.</li>
+  <li>Select the desired output type, tabulated or descriptive.</li>
+  <li>Select the desired output format, text or HTML.</li>
+  <li>Click &quot;Next&quot; to go to the parameters page.</li>
+</ol>
+
+<p>&nbsp;&nbsp;&nbsp; A sample screenshot is shown below.</p>
+
+<p align="center"><img border="0" src="T01_01.jpg" width="747" height="656"></p>
+
+<p><i>Parameters Page</i></p>
+
+<ol>
+  <li>To select an organism, click &quot;Select&quot;.</li>
+  <li>Scroll down the organism list to find the required organism.</li>
+  <li>Select &quot;Amino Acid&quot; as subset if not already shown. </li>
+  <li>Select &quot;L-Glutamate&quot; as Start Metabolite.</li>
+  <li>To select the TCA cycle compounds as end metabolites, change the subset to 
+  &quot;TCA Cycle&quot;.</li>
+  <li>Select all the TCA cycle compounds. To do this, click the first compound 
+  and then while holding the Shift key click on the last compound.</li>
+  <li>Choose the required pathway prediction mode. To use the manually annotated 
+  connections, use the &quot;Connection&quot; mode.</li>
+  <li>Since we would like to trace the pathway to the TCA cycle, select &quot;Carbon 
+  Connections&quot; as Connection Option.</li>
+  <li>Specify the cutoff length for the pathways.</li>
+  <li>Select &quot;Pathway&quot; from the Return Value since we would like a list of 
+  predicted pathways. To get a list of the reactions only which are involved in 
+  the pathway select &quot;Reaction&quot; as Return Value.</li>
+  <li>Click &quot;Submit&quot; to submit the job.</li>
+</ol>
+
+<p>&nbsp;&nbsp; A sample screenshot of the parameters page is shown below.</p>
+
+<p align="center"><img border="0" src="T01_02.jpg" width="919" height="845"></p>
+
+<p><b>Tip:</b> You can click on <b>[?]</b> at anytime to go to the corresponding 
+section on the help page.</p>
+
+<p><b>Output: </b>A sample output is shown below.</p>
+
+<p align="center"><img border="0" src="T01_03.jpg" width="935" height="742"></p>
+
+<ol>
+  <li> The header part of the result file shows the parameter values 
+selected while submitting the job. It also shows the pathway prediction 
+parameters, i.e. cutoff length, start and end metabolites.</li>
+  <li>Results for pathway prediction are shown in a tabulated format 
+(Tabulated Output was selected as Output Type) with following columns.
+  <ol type="a">
+    <li>Start Metabolite</li>
+    <li>Network</li>
+    <li>Pathway Length</li>
+    <li>Pathway</li>
+  </ol>
+  For descriptive output, the results are grouped by Network and then by Start Metabolites.
+  </li>
+  <li>For HTML output, as in this case, entries are hot-linked to 
+corresponding entries in KEGG.</li>
+</ol>
+
+<p>For further enquiries or comments/suggestions, please contact Aziz Mithani at
+<b>mithani [at] stats [dot] ox [dot] ac [dot] uk</b>.</p>
+
+<p>Return to the <a href="tutorials.html">list of tutorials</a>.
+
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+<html>
+
+<head>
+<title>Rahnuma Help - Comparative Analysis</title>
+</head>
+
+<body>
+
+<h1 align="center">Rahnuma: Pathway Prediction and Network Analysis Tool</h1>
+<h2 align="center">Help &#8210; Output</h2>
+
+<h3 align="left"><a name="OrganismModeInterpretation">Interpretation of Organism Mode for comparative analysis:</a></h3>
+
+<p align="left">For comparative analysis, three sets of results are computed:</p>
+
+<ol>
+  <li>
+<p align="left">Reactions/Pathways present in the network built using Organism 
+Set 1 that are absent from the network built using Organism Set 2.</li>
+<li>
+<p align="left">Reactions/Pathways present in the network built using Organism 
+Set 2 that are absent from the network built using Organism Set 1.</li>
+<li>
+<p align="left">Reactions/Pathways present in the network built using Organism 
+Set 1 as well as the network built using Organism Set 2.</li>
+</ol>
+<p align="left">The values in each result set depends on the Organism Mode 
+selected when submitting a job. These are explained below.</p>
+
+<table border="1" cellpadding="4" cellspacing="0" style="border-collapse: collapse; border-left-width:0; border-top-width:0" bordercolor="#111111" width="100%">
+  <tr>
+    <td width="12%" style="border-right-style:solid; border-right-width:1; border-bottom-style:solid; border-bottom-width:1" height="29">&nbsp;</td>
+    <td width="88%" style="border-top:1px solid #111111; border-right-style:solid; border-right-width:1; " colspan="3" height="29">
+    <p align="center"><b>Organism Set 2</b></td>
+  </tr>
+  <tr>
+    <td width="12%" style="border-left:1px solid #111111; border-bottom-style:solid; border-bottom-width:1" rowspan="3" height="58">
+    <p align="center"><b>Organism Set 1</b></td>
+    <td width="12%" style="border-style: solid; border-width: 1; " height="19">&nbsp;</td>
+    <td width="37%" style="border-left-style:solid; border-left-width:1; border-right-style:solid; border-right-width:1; border-bottom-style:solid; border-bottom-width:1" height="19" align="center">
+    <i>All Reactions</i></td>
+    <td width="39%" style="border-left-style:solid; border-left-width:1; border-bottom-style:solid; border-bottom-width:1" height="19" align="center">
+    <i>Common Reactions</i></td>
+  </tr>
+  <tr>
+    <td width="12%" style="border-right-style:solid; border-right-width:1; border-top-style:solid; border-top-width:1; border-bottom-style:solid; border-bottom-width:1" height="19">
+    <i>All Reactions</i></td>
+    <td width="37%" style="border-style: solid; border-width: 1; " height="19" valign="top">
+    <ol>
+      <li>Reactions/Pathways present in at least one organisms in &quot;Organism Set 1&quot; that are not present in 
+    any
+    organism in &quot;Organism Set 2&quot;.<br>
+&nbsp;</li>
+      <li>Reactions/Pathways present in at least one organism in &quot;Organism 
+      Set 2&quot; that are not present in any organism in &quot;Organism Set 1&quot;. <br>
+&nbsp;</li>
+      <li>Reactions/Pathways present in at least one organism in both &quot;Organism 
+      Set 1&quot; and &quot;Organism Set 2&quot;.</li>
+    </ol>
+    </td>
+    <td width="39%" style="border-left-style:solid; border-left-width:1; border-top-style:solid; border-top-width:1; border-bottom-style:solid; border-bottom-width:1" height="19" valign="top">
+    <ol>
+      <li>Reactions/Pathways present in one or more organisms in &quot;Organism Set 
+      1&quot; that are not present in all organisms in &quot;Organism Set 2&quot;, but may be 
+      present in one or more organisms.<br>
+&nbsp;</li>
+      <li>Reactions/Pathways present in all organisms in &quot;Organism Set 2&quot; that 
+      are not present in any organism in &quot;Organism Set 1&quot;.<br>
+&nbsp;</li>
+      <li>Reactions/Pathways present in all organisms in &quot;Organism Set 2&quot; and at 
+      least one organism in &quot;Organism Set 1&quot;.</li>
+    </ol>
+    </td>
+  </tr>
+  <tr>
+    <td width="12%" style="border-right-style:solid; border-right-width:1; border-top-style:solid; border-top-width:1" height="19">
+    <i>Common Reactions</i></td>
+    <td width="37%" style="border-left-style:solid; border-left-width:1; border-right-style:solid; border-right-width:1; border-top-style:solid; border-top-width:1" height="19" valign="top">
+    <ol>
+      <li>Reactions/Pathways present in all organisms in &quot;Organism Set 1&quot; that 
+      are not present in any organism in &quot;Organism Set 2&quot;.<br>
+&nbsp;</li>
+      <li>Reactions/Pathways present in at least one organism in &quot;Organism Set 
+      2&quot; that are not present in all organisms in &quot;Organism Set 1&quot;.<br>
+&nbsp;</li>
+      <li>Reactions/Pathways present in all organisms in &quot;Organism Set 1&quot; and at 
+      least one organism in &quot;Organism Set 2&quot;.</li>
+    </ol>
+    </td>
+    <td width="39%" style="border-left-style:solid; border-left-width:1; border-top-style:solid; border-top-width:1" height="19" valign="top">
+    <ol>
+      <li>Reactions/Pathways present in all organisms in &quot;Organism Set 1&quot; that are not present in all organisms 
+    in
+    &quot;Organism Set 2&quot;.<br>
+&nbsp;</li>
+      <li>Reactions/Pathways present in all organisms in &quot;Organism Set 2&quot; that are not present in all organisms 
+    in
+    &quot;Organism Set 1&quot;.<br>
+&nbsp;</li>
+      <li>Reactions/Pathways present in all organisms in both &quot;Organism Set 
+      1&quot; and &quot;Organism Set 2&quot;.</li>
+    </ol>
+    </td>
+  </tr>
+</table>
+<p>For further enquiries or comments/suggestions, please contact Aziz Mithani at
+<b>mithani [at] stats [dot] ox [dot] ac [dot] uk</b>.</p>
+
+</body>
+
+</html>
